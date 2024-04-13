@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:text="Student Details"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/roll"
+        android:layout_below="@+id/txt1"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Rollno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="-50dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:autofillHints="Enter roll Number"
+        android:hint="@string/roll"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_below="@id/Rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Name"
+        android:textSize="25sp"
+        android:ems="6"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="-45dp"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/marks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter Marks:"
+        android:layout_below="@id/Name"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/marks1"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="-47dp"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:hint="@string/marks"
+        android:textColorHint="@color/black"
+        android:ems="20"
+        />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/delete"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/update"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Delete"/>
+    <Button
+        android:id="@+id/View"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/view"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Update"/>
+
+    <Button
+        android:id="@+id/ViewAll"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="200dp"
+    android:layout_marginTop="20dp"
+    android:text="@string/viewall"
+    android:textSize="25sp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/View"/>
+    <Button
+        android:id="@+id/Insert" android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_x="25dp"
+    android:layout_y="300dp"
+    android:text="Insert"
+    android:textSize="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/Marks"/>
+</RelativeLayout>

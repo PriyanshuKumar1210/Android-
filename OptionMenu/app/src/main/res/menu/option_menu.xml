@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:title="@string/contact"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item2"
+        android:title="@string/login"
+        />
+
+    <item android:id="@+id/abt"
+        android:title="@string/about"
+
+        />
+
+    <item android:title="@string/contact"
+        android:id="@+id/contact"
+
+        />
+</menu>

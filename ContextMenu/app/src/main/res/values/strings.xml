@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContextMenu</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="about">About Us</string>
+    <string name="terms">Terms and Condition</string>
+    <string name="logout">Logout</string>
+</resources>

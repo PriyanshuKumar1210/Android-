@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbg"
+    >
+<!-- Login text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+    />
+<!--Email text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/mail"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+    />
+
+<!-- code of Enter the email by user -->
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginStart="140dp"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textAlignment="center"
+        android:autofillHints="emailAddress"
+        android:textSize="22sp"
+        android:hint="@string/email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        >
+    </EditText>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pswd"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+    />
+
+
+    <!-- code of Entering the password by user -->
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="160dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:hint="@string/passwd"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+      >
+
+    </EditText>
+
+    <!-- code of Login button -->
+    <Button
+        android:id="@+id/Btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="245dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

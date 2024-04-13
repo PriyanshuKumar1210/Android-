@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SharecPrefances</string>
+    <string name="name">Welcome to App</string>
+    <string name="user">enter user id </string>
+    <string name="password">enter password</string>
+    <string name="signin">Sign in </string>
+    <string name="Signup">Sign up </string>
+    <string name="FullName">enter Full Name </string>
+    <string name="Phonenumber">enter phone number </string>
+    <string name="Email">enter Email id </string>
+    <string name="Submit">Submit </string>
+    <string name="repassword">Re Enter Password </string>
+
+
+
+</resources>

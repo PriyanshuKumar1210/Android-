@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="mail">Email id</string>
+    <string name="email">Enter email id</string>
+    <string name="pswd">Password</string>
+    <string name="passwd">Enter the password</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="welcome">Welcome</string>
+    <string name="back_login">Go to Login</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

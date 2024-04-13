@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StudentsRegistrationForm</string>
+    <string name="Title">Registration Form</string>
+    <string name="name">Enter Full Name</string>
+    <string name="F_name">Enter Father Name</string>
+    <string name="dob">Enter Date of Birth</string>
+    <string name="RN">Enter Registration Number </string>
+    <string name="Section">Enter Section </string>
+    <string name="Email">Enter Email Address</string>
+    <string name="A">Section A</string>
+    <string name="B">Section B</string>
+    <string name="Submit">Submit</string>
+
+</resources>

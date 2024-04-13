@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <item
+        android:id="@+id/enq"
+        android:title="@string/enquiry"
+        android:icon="@drawable/baseline_account_box_24"
+        android:iconTint="@color/black"
+    />
+
+    <item
+        android:id="@+id/abt"
+        android:title="@string/about"
+        android:icon="@color/black"
+
+        />
+    <item
+        android:id="@+id/cond"
+        android:title="@string/terms"
+        />
+    <item
+        android:id="@+id/log"
+        android:title="@string/logout"
+        />
+</menu>
+

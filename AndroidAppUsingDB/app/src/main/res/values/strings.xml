@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidAppUsingDB</string>
+    <string name="delete">DELETE</string>
+    <string name="insert">INSERT</string>
+    <string name="update">UPDATE</string>
+    <string name="view">VIEW</string>
+    <string name="viewall">VIEW ALL</string>
+    <string name="roll">Roll No.</string>
+    <string name="marks">Enter the marks</string>
+    <string name="name">Enter the name</string>
+</resources>

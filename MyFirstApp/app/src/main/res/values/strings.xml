@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="edt1">Enter the First Number</string>
+    <string name="edt2">Enter the Second Number</string>
+    <string name="res">RESULT</string>
+    <string name="sum">ADD</string>
+</resources>

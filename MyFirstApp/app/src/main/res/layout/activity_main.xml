@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+
+
+        android:id="@+id/edt1"
+        android:layout_width="188dp"
+        android:layout_height="60dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:ems="10"
+        android:hint="@string/edt1"
+        android:inputType="number"
+        />
+
+
+
+    <EditText
+
+        android:id="@+id/edt2"
+        android:layout_width="187dp"
+        android:layout_height="60dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:ems="10"
+        android:hint="@string/edt2"
+        android:inputType="number"
+        />
+
+
+    <Button
+
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sum"
+        android:layout_marginStart="100dp"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:text="@string/res"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/result"
+        />
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:background="#F2FFFBFB"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+        android:id="@+id/txt_std_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/header"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/details"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:drawablePadding="6dp"
+        android:hint="@string/name"
+        android:autofillHints="@string/name"
+        android:inputType="textPersonName"
+        android:padding="6dp"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/et_Reg"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="6dp"
+        android:hint="@string/regno"
+        android:autofillHints="@string/regno"
+        android:inputType="textCapSentences"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="6dp"
+        android:hint="@string/email"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/et_mob"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="6dp"
+        android:hint="@string/mobile"
+        android:autofillHints="phone"
+        android:inputType="phone"
+        android:padding="6dp" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/heading_sub"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_subj"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elective1"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elective2"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elective3"
+            android:textColor="@color/black"
+            android:ems="15"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        />
+</LinearLayout>

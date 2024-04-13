@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StudentRegistration</string>
+    <string name="header">Student Registration Form</string>
+    <string name="details">Personal Details</string>
+    <string name="name">Enter the name : </string>
+    <string name="email">Enter Email id</string>
+    <string name="phone">Phone no</string>
+    <string name="mobile">Enter mobile no.</string>
+    <string name="heading_sub">Choose the Elective</string>
+    <string name="elective1">Android</string>
+    <string name="elective2">C#</string>
+    <string name="elective3">Software Engineering</string>
+    <string name="submit">SUBMIT</string>
+    <string name="regno">Registrtaion Number</string>
+</resources>
+
