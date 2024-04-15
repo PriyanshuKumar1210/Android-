@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">Calculator2</string>
-    <string name="one">1</string>
+    <string name="app_name"> Simple Calculator </string>
+    <string name="text1">Enter the First number</string>
+    <string name="text2">Enter the Second number</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+
 </resources>
