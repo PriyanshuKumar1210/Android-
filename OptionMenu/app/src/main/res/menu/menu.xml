@@ -5,11 +5,12 @@
         android:id="@+id/item1"
         android:title="@string/contact"
         android:icon="@drawable/call"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         />
     <item
         android:id="@+id/item2"
         android:title="@string/login"
+
         />
 
     <item android:id="@+id/abt"
@@ -18,7 +19,7 @@
         />
 
     <item android:title="@string/contact"
-        android:id="@+id/contact"
+        android:id="@+id/contact"/>
 
-        />
+
 </menu>
